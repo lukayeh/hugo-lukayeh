@@ -1,5 +1,3 @@
-/themes/*
-!/themes/.gitkeep
 
 /public/*
 !/public/.gitkeep

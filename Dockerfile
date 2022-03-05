@@ -5,7 +5,7 @@
 FROM alpine:3.9 AS build
 
 # The Hugo version
-ARG VERSION="0.72.0"
+ARG VERSION="0.92.0"
 
 ADD https://github.com/gohugoio/hugo/releases/download/v${VERSION}/hugo_${VERSION}_Linux-64bit.tar.gz /hugo.tar.gz
 RUN tar -zxvf hugo.tar.gz
@@ -19,7 +19,7 @@ COPY . /site
 WORKDIR /site
 
 # And then we just run Hugo
-RUN /hugo --minify --enableGitInfo
+RUN /hugo 
 
 # stage 2
 FROM nginx:1.15-alpine

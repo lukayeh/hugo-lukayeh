@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>lukayeh</title>
-    
-    
-    
-    <link>http://example.org/</link>
+    <link>/</link>
     <description>Recent content on lukayeh</description>
+    <image>
+      <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 04 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dockerizing a Hugo Site</title>
+      <link>/posts/dockerize-a-hugo-site/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/dockerize-a-hugo-site/</guid>
+      <description>Introduction Alright I lied, I&amp;rsquo;ll do another blog post, seeing as you all asked so nicely! This post expands upon starting-a-hugo-site and will show you have to package up HUGO in docker, I mean sure you can just upload it to S3 in AWS and run as a static page, but if you&amp;rsquo;re like me you want to mess around with shiny things and I guess Docker is shiny?
+Getting Started Install Docker Homebrew is a package manager for macOS, can be installed from brew.</description>
+    </item>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Starting a Hugo Site</title>
+      <link>/posts/starting-a-hugo-site/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/starting-a-hugo-site/</guid>
+      <description>Introduction Hi! this is going to be my first blog post here, and it&amp;rsquo;s going to pretty much run through how I generated it in the first Hazzar I hear you say.
+If you want to skip this and get the quick start on how to get HUGO up and running go ahead and read this document here from Hugos standard documentation or you can read my blog?
+Just as a headsup I&amp;rsquo;m running on a MacBook Pro (15-inch, 2018), so this post atleast is tailored to MacOS if you need assistance with Windows then&amp;hellip;well figure it out Getting Started Install Hugo Homebrew is a package manager for macOS, can be installed from brew.</description>
+    </item>
     
   </channel>
 </rss>
