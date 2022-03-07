@@ -8,6 +8,9 @@ jobs:
     steps:
       - run:
           name: Generate static website
+          command: ls
+      - run:
+          name: Generate static website
           command: hugo
       - run:
           name: Push to S3 bucket
