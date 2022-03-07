@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
       - image: cibuilds/hugo:latest
-    working_directory: ~
+    working_directory: ~/hugo
     steps:
       - run:
           name: Generate static website
