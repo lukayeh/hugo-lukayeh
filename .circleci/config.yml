@@ -44,3 +44,6 @@ jobs:
             else
               echo "Not master branch, dry run only"
             fi
+      - run:
+          name: Invalidate Distribution 
+          command: aws cloudfront create-invalidation --distribution-id=E2ABXXWA8SYGVO --paths "/*" > /dev/null
