@@ -51,12 +51,12 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
+    enabled: true # needs to be explicitly set
+    title: lukayeh.com
+    subtitle: "Welcome to my rather useless potentially copyright infringing blog."
+    imageUrl: "https://i.imgur.com/e3AGucX.png"
+    imageWidth: 240
+    imageHeight: 240
     imageTitle: my image
     buttons:
       - name: Posts
@@ -72,8 +72,6 @@ params:
   socialIcons:
     - name: twitter
       url: "https://twitter.com/lukayeh"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/"
 
@@ -91,7 +89,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/lukayeh/hugo-lukayeh/tree/master/content/posts"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
