@@ -9,8 +9,6 @@ categories:
  - "techstuff"
 ---
 
-# Using Terraform Workspaces to manage multi-env deployments
-
 Hi! This blog post will cover working with Terraform Workspaces that allow you to manage multiple enviroments under the same code, this is one of many ways to do this with terraform (see using `--var-file=development.tfvars`) and I was interested in figuring out how this would work, I can't say it's the right way but I can say it's fairly straight forward however I have yet to use this at a large scale, so lets have a plan!
 
 ## Preparation 
