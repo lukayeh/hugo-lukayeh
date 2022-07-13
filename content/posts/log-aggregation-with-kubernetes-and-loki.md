@@ -13,16 +13,14 @@ categories:
 
 ![](https://c.tenor.com/DSG9ZID25nsAAAAC/hello-there-general-kenobi.gif)
 
-## Prerequisites
-* A Kubernetes Cluster ( Can be either On-Prem, AKS, EKS, GKE, Kind ) - I'm using minikube!
-* Helm, kubectl installed.
-
-## Post Credits
-https://medium.com/nerd-for-tech/logging-at-scale-in-kubernetes-using-grafana-loki-3bb2eb0c0872
 
 ## Introduction
 
 This blog post is going to cover using the log aggregation tooling Grafana Loki to aggregate logs from your pods within Kubernetes, something I've been keen to try out for awhile as I'm a elasticsearch man so I'm looking forward to delving into what Loki has to offer as it's being revered across the lands as a real competitor!
+
+### Prerequisites
+* A Kubernetes Cluster ( Can be either On-Prem, AKS, EKS, GKE, Kind ) - I'm using minikube!
+* Helm, kubectl installed.
 
 Firstly, let's talk...
 
@@ -190,3 +188,7 @@ This was a brief and quick run through of how I managed to get loki setup with r
 I'd recommend digging into the query language which is called `LogQL` more on that can be found here: https://grafana.com/docs/loki/latest/logql/
 
 Happy logging!
+
+### Post Credits
+https://medium.com/nerd-for-tech/logging-at-scale-in-kubernetes-using-grafana-loki-3bb2eb0c0872
+https://codersociety.com/blog/articles/loki-kubernetes-logging
