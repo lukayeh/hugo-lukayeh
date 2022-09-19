@@ -143,7 +143,7 @@ custom:
 
 provider:
   name: aws
-  runtime: python3.8
+  runtime: python3.9
 
 functions:
   api:
@@ -168,7 +168,7 @@ To configure version pinning define a `frameworkVersion` property in your server
 frameworkVersion: '3' # Framework version
 ```
 
-Below block configures the AWS provider and the runtime to use for your application (this example uses python3.8)
+Below block configures the AWS provider and the runtime to use for your application (this example uses python3.9)
 ```yml
 provider:
   name: aws
