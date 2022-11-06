@@ -53,7 +53,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: lukayeh.com
-    subtitle: "Welcome to my rather useless potentially copyright infringing blog."
+    subtitle: "Welcome to my rather droll tech blog."
     imageUrl: "https://i.imgur.com/e3AGucX.png"
     imageWidth: 240
     imageHeight: 240
