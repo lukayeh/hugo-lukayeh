@@ -47,7 +47,7 @@ Once installed, you'll need to configure awscli to work with your account, run `
 
 ## Step 2: Configure Route53 DNS zones
 
-DNS is a prerequsite for a functioning Kops cluster, using these far easier than trying to remember a set of IP addresses and allows you to easily scale your clusters.
+DNS is a prerequsite for a functioning Kops cluster, using DNS is far easier than trying to remember a set of IP addresses and allows you to easily scale your clusters.
 
 For this tutorial we're going to use Route 53 Hosted Zones utitlising the `dev.$DOMAIN` setup. 
 
@@ -188,7 +188,7 @@ i-0898946028e62efb3   Ready    control-plane   3m9s   v1.25.3
 i-09840c85222583f7b   Ready    node            119s   v1.25.3
 ```
 
-## Step 6: Deploy a sample application
+## Step 6: Deploy a sample application
 
 Okay so just for funsies let's deploy a simple hello-world application, first create the below yaml file:
 ```yaml

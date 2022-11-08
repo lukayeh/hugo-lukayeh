@@ -7,7 +7,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
+enableEmoji: true
 googleAnalytics: UA-123-45
 
 params:
@@ -21,6 +21,7 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  enableEmoji: true
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -38,11 +39,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "https://i.imgur.com/tEq6Ggt.png"
+    favicon16x16: "https://i.imgur.com/tEq6Ggt.png"
+    favicon32x32: "https://i.imgur.com/tEq6Ggt.png"
+    apple_touch_icon: "https://i.imgur.com/tEq6Ggt.png"
+    safari_pinned_tab: "https://i.imgur.com/tEq6Ggt.png"
 
   label:
     text: "lukayeh.."
@@ -67,17 +68,17 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my rather useless potentially copyright infringing blog.
+    Content: Welcome to my rather droll tech blog.
 
   socialIcons:
     - name: twitter
       url: "https://twitter.com/lukayeh"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/lukayeh"
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "G-P5SKRWP8NL"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
